@@ -24,7 +24,6 @@ function App() {
     if(actors.length > 0 || normalizedActresses.length > 0)
     {
       setActorsAndActresses(actors.concat(normalizedActresses));
-      console.log(actorsAndActresses);
     }
   }, [actors, normalizedActresses]);
   
@@ -42,7 +41,6 @@ function App() {
         image: actress.image,
       }
     ))
-    console.log(result);
     setNormalizedActresses(result);
   }, [actresses]);
 
