@@ -5,7 +5,58 @@
   box-sizing: border-box;
 }
 
-.card
+.card-element
 {
-  background-color: rgb(13, 13, 61);
+  border-radius: 8px;
+}
+
+.card-bg
+{
+  background-color: rgb(29, 29, 51);
+}
+
+.italic
+{
+  font-style: italic;
+}
+
+.bold
+{
+  font-weight: bold;
+}
+
+.px-2
+{
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.pt-2
+{
+  padding-top: 2px;
+}
+
+.pb-2
+{
+  padding-bottom: 2px;
+}
+
+.white
+{
+  color: white;
+}
+
+.red
+{
+  color: rgb(199, 74, 74);
+}
+
+.golden
+{
+  color: goldenrod;
+}
+
+.image-width
+{
+  max-width: 60%;
 }
